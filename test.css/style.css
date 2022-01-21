@@ -1,0 +1,44 @@
+
+
+
+p{width: 800;
+    height: auto;}
+    .parent
+    {
+        float:right;
+        width: 40%;
+        height: 525px;
+        color: lightslategrey;
+        background-color: maroon;
+        margin: 0px;
+    }
+    .box
+    {
+    align-content: flex-end;
+    height: 50px;
+    width: 1333px;
+    background-color: black;
+    color: white;
+    text-decoration: underline;
+    text-align: left; 
+    
+    }
+   
+    @media screen and (max-width: 768px) 
+    {
+    .parent
+    {
+     display: none;
+    }   
+
+a  
+    {
+        font-size: 2em ;
+    }
+
+a 
+    {
+        vertical-align:middle;
+    }
+    }
+   
